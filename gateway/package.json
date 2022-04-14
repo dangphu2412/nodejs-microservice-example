@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "start:prod": "npm run build && node dist/index",
+    "start:prod": "node dist/index",
     "lint": "eslint . --fix",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "test": "jest",
